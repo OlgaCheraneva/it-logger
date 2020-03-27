@@ -1,3 +1,8 @@
 .mb-30 {
     margin-bottom: 30px;
 }
+
+.modal-size-75 {
+    width: 75%;
+    height: 75%;
+}
