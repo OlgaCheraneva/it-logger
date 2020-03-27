@@ -8,7 +8,6 @@ export const AddLogModal = () => {
 
     const onSubmit = (e) => {
         if (message === '' || tech === '') {
-            e.preventDefault();
             M.toast({html: 'Please enter a message and tech'});
         } else {
             console.log(message, tech, attention);
