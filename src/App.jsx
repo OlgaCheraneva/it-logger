@@ -9,7 +9,7 @@ import {AddLogModal} from './components/logs/AddLogModal';
 import {AddTechModal} from './components/techs/AddTechModal';
 import {EditLogModal} from './components/logs/EditLogModal';
 import {TechListModal} from './components/techs/TechListModal';
-import {Logs} from './components/logs/Logs';
+import Logs from './components/logs/Logs';
 import store from './store';
 
 import './App.css';
