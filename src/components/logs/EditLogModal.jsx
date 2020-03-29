@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-export const EditLogModal = () => {
+const EditLogModal = () => {
     const [message, setMessage] = useState('');
     const [tech, setTech] = useState('');
     const [attention, setAttention] = useState(false);
@@ -77,3 +77,5 @@ export const EditLogModal = () => {
         </div>
     );
 };
+
+export default EditLogModal;

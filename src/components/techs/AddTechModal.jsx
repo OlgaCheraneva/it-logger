@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-export const AddTechModal = () => {
+const AddTechModal = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
 
@@ -58,3 +58,5 @@ export const AddTechModal = () => {
         </div>
     );
 };
+
+export default AddTechModal;

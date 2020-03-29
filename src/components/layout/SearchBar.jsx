@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const SearchBar = () => {
+const SearchBar = () => {
     return (
         <nav className="mb-30 blue">
             <div className="nav-wrapper">
@@ -17,3 +17,5 @@ export const SearchBar = () => {
         </nav>
     );
 };
+
+export default SearchBar;

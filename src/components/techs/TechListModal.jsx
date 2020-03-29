@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 import {TechItem} from './TechItem';
 
-export const TechListModal = () => {
+const TechListModal = () => {
     const [techs, setTechs] = useState([]);
     const [loading, setLoading] = useState(false);
 
@@ -32,3 +32,5 @@ export const TechListModal = () => {
         </div>
     );
 };
+
+export default TechListModal;
