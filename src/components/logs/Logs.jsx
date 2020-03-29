@@ -2,8 +2,8 @@ import React, {useEffect} from 'react';
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 
-import {LogItem} from './LogItem';
-import {Preloader} from '../layout/Preloader';
+import LogItem from './LogItem';
+import Preloader from '../layout/Preloader';
 import {getLogs} from '../../actions/logActions';
 
 const Logs = ({logState: {logs, loading}, getLogs}) => {
